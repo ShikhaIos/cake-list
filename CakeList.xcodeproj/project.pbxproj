@@ -24,6 +24,7 @@
 		0041BD26305D3C310058E1B8 /* CakeRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0041BD25305D3C310058E1B8 /* CakeRowView.swift */; };
 		0041BD28305D3C5C0058E1B8 /* CakeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0041BD27305D3C5C0058E1B8 /* CakeListView.swift */; };
 		0041BD2A305D40F70058E1B8 /* CakeListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0041BD29305D40F70058E1B8 /* CakeListViewModelTests.swift */; };
+		0041BD2C305D45370058E1B8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0041BD2B305D45360058E1B8 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		0041BD25305D3C310058E1B8 /* CakeRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeRowView.swift; sourceTree = "<group>"; };
 		0041BD27305D3C5C0058E1B8 /* CakeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeListView.swift; sourceTree = "<group>"; };
 		0041BD29305D40F70058E1B8 /* CakeListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeListViewModelTests.swift; sourceTree = "<group>"; };
+		0041BD2B305D45360058E1B8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		0041BCDB305D362E0058E1B8 = {
 			isa = PBXGroup;
 			children = (
+				0041BD2B305D45360058E1B8 /* README.md */,
 				0041BCE6305D362E0058E1B8 /* CakeList */,
 				0041BCF7305D36360058E1B8 /* CakeListTests */,
 				0041BD01305D36360058E1B8 /* CakeListUITests */,
@@ -309,6 +312,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0041BD2C305D45370058E1B8 /* README.md in Resources */,
 				0041BCEF305D36340058E1B8 /* Preview Assets.xcassets in Resources */,
 				0041BCEC305D36340058E1B8 /* Assets.xcassets in Resources */,
 			);
