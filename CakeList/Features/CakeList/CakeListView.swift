@@ -56,6 +56,9 @@ struct CakeListView: View {
                 .onTapGesture {
                     selectedCake = cake
                 }
+                .alignmentGuide(.listRowSeparatorLeading) { _ in
+                    0
+                }
         }
         .listStyle(.plain)
         .refreshable {
