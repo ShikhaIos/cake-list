@@ -14,6 +14,11 @@
 		0041BCF9305D36360058E1B8 /* CakeListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0041BCF8305D36360058E1B8 /* CakeListTests.swift */; };
 		0041BD03305D36360058E1B8 /* CakeListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0041BD02305D36360058E1B8 /* CakeListUITests.swift */; };
 		0041BD05305D36360058E1B8 /* CakeListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0041BD04305D36360058E1B8 /* CakeListUITestsLaunchTests.swift */; };
+		0041BD13305D372E0058E1B8 /* Cake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0041BD12305D372E0058E1B8 /* Cake.swift */; };
+		0041BD16305D37780058E1B8 /* CakeServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0041BD15305D37780058E1B8 /* CakeServiceProtocol.swift */; };
+		0041BD18305D37B50058E1B8 /* CakeAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0041BD17305D37B50058E1B8 /* CakeAPIService.swift */; };
+		0041BD1B305D38490058E1B8 /* CakeRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0041BD1A305D38490058E1B8 /* CakeRepositoryProtocol.swift */; };
+		0041BD1D305D38980058E1B8 /* CakeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0041BD1C305D38980058E1B8 /* CakeRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		0041BCFE305D36360058E1B8 /* CakeListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CakeListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0041BD02305D36360058E1B8 /* CakeListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeListUITests.swift; sourceTree = "<group>"; };
 		0041BD04305D36360058E1B8 /* CakeListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0041BD12305D372E0058E1B8 /* Cake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cake.swift; sourceTree = "<group>"; };
+		0041BD15305D37780058E1B8 /* CakeServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeServiceProtocol.swift; sourceTree = "<group>"; };
+		0041BD17305D37B50058E1B8 /* CakeAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeAPIService.swift; sourceTree = "<group>"; };
+		0041BD1A305D38490058E1B8 /* CakeRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeRepositoryProtocol.swift; sourceTree = "<group>"; };
+		0041BD1C305D38980058E1B8 /* CakeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +104,9 @@
 		0041BCE6305D362E0058E1B8 /* CakeList */ = {
 			isa = PBXGroup;
 			children = (
+				0041BD19305D38120058E1B8 /* Repository */,
+				0041BD14305D37600058E1B8 /* Networking */,
+				0041BD11305D37160058E1B8 /* Model */,
 				0041BCE7305D362E0058E1B8 /* CakeListApp.swift */,
 				0041BCE9305D362E0058E1B8 /* ContentView.swift */,
 				0041BCEB305D36340058E1B8 /* Assets.xcassets */,
@@ -125,6 +138,32 @@
 				0041BD04305D36360058E1B8 /* CakeListUITestsLaunchTests.swift */,
 			);
 			path = CakeListUITests;
+			sourceTree = "<group>";
+		};
+		0041BD11305D37160058E1B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0041BD12305D372E0058E1B8 /* Cake.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0041BD14305D37600058E1B8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0041BD15305D37780058E1B8 /* CakeServiceProtocol.swift */,
+				0041BD17305D37B50058E1B8 /* CakeAPIService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		0041BD19305D38120058E1B8 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				0041BD1A305D38490058E1B8 /* CakeRepositoryProtocol.swift */,
+				0041BD1C305D38980058E1B8 /* CakeRepository.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +297,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0041BCEA305D362E0058E1B8 /* ContentView.swift in Sources */,
+				0041BD13305D372E0058E1B8 /* Cake.swift in Sources */,
 				0041BCE8305D362E0058E1B8 /* CakeListApp.swift in Sources */,
+				0041BD1D305D38980058E1B8 /* CakeRepository.swift in Sources */,
+				0041BD1B305D38490058E1B8 /* CakeRepositoryProtocol.swift in Sources */,
+				0041BD16305D37780058E1B8 /* CakeServiceProtocol.swift in Sources */,
+				0041BD18305D37B50058E1B8 /* CakeAPIService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
