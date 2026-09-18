@@ -98,3 +98,12 @@ SwiftUI AsyncImage is used for remote images to avoid introducing an unnecessary
 
 MVVM keeps UI rendering separate from application behaviour and allows the ViewModel to be unit tested independently using a fake repository.
 
+## Future improvements
+
+Given more time I would consider:
+
+- Improved image caching and placeholder handling
+- Preserving the existing list while a refresh is in progress
+- More detailed network error messaging
+- Accessibility review
+

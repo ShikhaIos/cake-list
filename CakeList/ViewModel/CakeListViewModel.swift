@@ -34,11 +34,13 @@ final class CakeListViewModel: ObservableObject {
             state = .loaded(sortedCakes)
 
         } catch {
+            // TODO: Map specific network errors to more informative user-facing messages.
             state = .error("Unable to load cakes. Please try again.")
         }
     }
 
     func refresh() async {
+        // TODO: Preserve the existing list while refresh is in progress.
         await loadCakes()
     }
 

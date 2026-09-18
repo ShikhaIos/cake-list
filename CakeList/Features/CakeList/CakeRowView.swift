@@ -13,6 +13,7 @@ struct CakeRowView: View {
 
     var body: some View {
         HStack(spacing: 16) {
+            // TODO: Consider adding persistent image caching for a production application.
 
             AsyncImage(url: cake.image) { phase in
                 switch phase {
