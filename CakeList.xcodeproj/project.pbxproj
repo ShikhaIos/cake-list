@@ -19,6 +19,8 @@
 		0041BD18305D37B50058E1B8 /* CakeAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0041BD17305D37B50058E1B8 /* CakeAPIService.swift */; };
 		0041BD1B305D38490058E1B8 /* CakeRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0041BD1A305D38490058E1B8 /* CakeRepositoryProtocol.swift */; };
 		0041BD1D305D38980058E1B8 /* CakeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0041BD1C305D38980058E1B8 /* CakeRepository.swift */; };
+		0041BD21305D39330058E1B8 /* CakeListState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0041BD20305D39330058E1B8 /* CakeListState.swift */; };
+		0041BD24305D3B970058E1B8 /* CakeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0041BD23305D3B970058E1B8 /* CakeListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		0041BD17305D37B50058E1B8 /* CakeAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeAPIService.swift; sourceTree = "<group>"; };
 		0041BD1A305D38490058E1B8 /* CakeRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeRepositoryProtocol.swift; sourceTree = "<group>"; };
 		0041BD1C305D38980058E1B8 /* CakeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeRepository.swift; sourceTree = "<group>"; };
+		0041BD20305D39330058E1B8 /* CakeListState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeListState.swift; sourceTree = "<group>"; };
+		0041BD23305D3B970058E1B8 /* CakeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 		0041BCE6305D362E0058E1B8 /* CakeList */ = {
 			isa = PBXGroup;
 			children = (
+				0041BD22305D3B7F0058E1B8 /* ViewModel */,
+				0041BD1E305D39100058E1B8 /* Features */,
 				0041BD19305D38120058E1B8 /* Repository */,
 				0041BD14305D37600058E1B8 /* Networking */,
 				0041BD11305D37160058E1B8 /* Model */,
@@ -164,6 +170,30 @@
 				0041BD1C305D38980058E1B8 /* CakeRepository.swift */,
 			);
 			path = Repository;
+			sourceTree = "<group>";
+		};
+		0041BD1E305D39100058E1B8 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				0041BD1F305D39170058E1B8 /* CakeList */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		0041BD1F305D39170058E1B8 /* CakeList */ = {
+			isa = PBXGroup;
+			children = (
+				0041BD20305D39330058E1B8 /* CakeListState.swift */,
+			);
+			path = CakeList;
+			sourceTree = "<group>";
+		};
+		0041BD22305D3B7F0058E1B8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0041BD23305D3B970058E1B8 /* CakeListViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +333,8 @@
 				0041BD1B305D38490058E1B8 /* CakeRepositoryProtocol.swift in Sources */,
 				0041BD16305D37780058E1B8 /* CakeServiceProtocol.swift in Sources */,
 				0041BD18305D37B50058E1B8 /* CakeAPIService.swift in Sources */,
+				0041BD24305D3B970058E1B8 /* CakeListViewModel.swift in Sources */,
+				0041BD21305D39330058E1B8 /* CakeListState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
